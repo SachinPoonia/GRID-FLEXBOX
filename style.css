@@ -1,0 +1,105 @@
+body {
+    margin: auto 0;
+}
+
+.zone {
+    /*padding:30px 50px;
+    margin:40px 60px;*/
+    cursor:pointer;
+    /*display:inline-block;*/
+    color:#FFF;
+    font-size:2em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+
+/*NAVIGATION BAR*/
+.navbar {
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+.push-right {
+    margin-left: auto;
+}
+
+
+li {
+    padding: 20px;
+}
+
+a {
+    
+    color: inherit;
+    text-decoration: none;
+}
+
+/*CONTAINER*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+/*GRID-CONTAINER*/
+.grid-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+
+}
+
+.box > img {
+    width: 100%;
+}
+
+.box{
+    background-color: #444;
+    padding: 130px;
+    margin: 20px;
+}
+
+/*FOOTER*/
+
+footer {
+    text-align: center;
+}
+.green{
+    background: #56B870;
+    margin: 0;
+}
+
+.red{
+    background: #C655BE; 
+    background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%);
+    margin: 0;
+}
+
+.yellow{
+    background: #F3AAAA; 
+    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%);
+    margin: 0;
+}
+
+.blue{
+    background: #7abcff; 
+    margin: 0;
+}
